@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .header {
+    width: 100%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.container .header .logo {
+    width: 50px;
+    height: 50px;
+    background: url(logo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .header .nav ul {
+    display: flex;
+    font-weight: 500;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.container .header .nav ul li a {
+    text-decoration: none;
+    color: #242b24;
+    transition: border-bottom 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.container .header .nav ul li a:hover {
+    border-bottom: 2px solid #4facfe;
+}
+
+.container .header .buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.container .header .buttons button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #242b24;
+    transition: all 0.3s ease;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .header {
+    width: 100%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.container .header .logo {
+    width: 50px;
+    height: 50px;
+    background: url(logo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .header .nav ul {
+    display: flex;
+    font-weight: 500;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.container .header .nav ul li a {
+    text-decoration: none;
+    color: #242b24;
+    transition: border-bottom 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.container .header .nav ul li a:hover {
+    border-bottom: 2px solid #4facfe;
+}
+
+.container .MainContent {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.container .MainContent .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .MainContent .content h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+.container .MainContent .content span {
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.container .MainContent .content p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container .MainContent .car {
+    width: 100%;
+    height: 500px;
+    background: url(allcars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .main-button{
+    display: flex;
+    justify-content: center;   /* center button */
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.container .main-button button{
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.container .main-button button:hover{
+    color: #fff;
+    background-image: linear-gradient(to right, #4facfe 100%);
+}
+.container .features {
+    padding: 30px;
+}
+
+.container .features .features_bmwr {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.container .features .bmw img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.container .features h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.container .features .bmw span {
+    display: block;
+    /* moves to next line */
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.container .features .features_lamborghini{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.container .features .lamborghini{
+    width: 300px;
+    height: 500px;
+    text-align: center;   /* text under image */
+}
+
+.container .features .lamborghini img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.container .features .lamborghini span{
+    display: block;
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+.container .features .features_buggati{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container .features .buggati{
+    width: 300px;
+    text-align: center;
+}
+
+.container .features .buggati img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.container .features .buggati span{
+    display: block;
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+.about{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.about h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.container .features {
+    gap: 5em;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:#e8e8e8;
+}
+
+footer{
+    width:100%;
+    padding:50px 100px;
+    background:#fff;
+}
+
+footer .footer{
+    width:100%;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:30px;
+}
+
+footer h2{
+    color:#333;
+    margin-bottom:15px;
+}
+
+footer p{
+    color:#333;
+    line-height:1.6;
+}
+
+footer .features ul{
+    list-style:none;
+}
+
+footer .features li{
+    margin:10px 0;
+}
+
+footer a{
+    text-decoration:none;
+    color:#333;
+}
+
+footer .sci{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    margin-top:20px;
+}
+
+footer .sci li a{
+    font-size:24px;
+}
+
+footer .contact{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+footer a{
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+footer a:hover{
+    color: #4facfe;
+    padding-left: 5px;
+}
+.contacts{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+.contact .contact_wrapper{
+    font-size: 36px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px
+}
+.contacts{
+    min-height: 100vh;
+    background-color: #e8f0ee;
+    padding: 50px;
+}
+
+.contactus h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.contact_form{
+    text-align: left;
+}
+.contact_form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#333;
+}
+.form_group{
+    margin-bottom: 20px;
+}
+input, textarea{
+    width:100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+}
+input:focus, 
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3,ease;
+}
+button:hover{
+    background-color: #45a049;
+    
+}
+.contact_infor{
+    text-align: left;
+}
+.contact_infor h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.contact_infor p{
+    margin-bottom: 10px;
+    color: #555;
+}
+.contact_infor i{
+    color:#4caf50;
+    margin-right: 10px;
+}
+/*Contact in moblie */
+@media screen and (max-width: 768px){
+    .contacts{
+        padding: 20px;
+    }
+    .contact_wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+/* Footer */
+@media (max-width:768px){
+
+    footer .footer{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    footer .sci{
+        justify-content: center;
+    }
+}
+/* Nav Bar */
+
+@media (max-width:768px){
+    .container .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container .header .nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+/* Mobile View for Features */
+@media (max-width: 768px){
+
+    .container .features .features_bmwr,
+    .container .features .features_lamborghini,
+    .container .features .features_buggati{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container .features .bmw,
+    .container .features .lamborghini,
+    .container .features .buggati{
+        width: 90%;
+        height: auto;
+    }
+
+    
+    .container .features .bmw img,
+    .container .features .lamborghini img,
+    .container .features .buggati img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+  
+    .container .features h1{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+   
+    .container .features span{
+        font-size: 13px;
+    }
+}/* Mobile View - Home Page */
+@media (max-width: 768px){
+
+    .header{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .header .nav ul{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Main content */
+    .container .MainContent{
+        grid-template-columns: 1fr;   
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container .MainContent .content h1{
+        font-size: 32px;
+    }
+
+    .container .MainContent .content span{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .container .MainContent .content p{
+        font-size: 16px;
+    }
+
+  
+    .container .MainContent .car{
+        height: 250px;
+        margin-top: 20px;
+    }
+
+
+    .container .main-button{
+        margin: 20px 0;
+    }
+
+    .container .main-button button{
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+/* Mobile Footer */
+@media (max-width:768px){
+
+    footer{
+        padding: 30px 20px;
+    }
+
+    footer .footer{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 25px;
+    }
+
+    footer .sci{
+        justify-content: center;
+    }
+}
